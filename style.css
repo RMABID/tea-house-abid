@@ -17,7 +17,10 @@ body{
     border: none;
     border-radius: 10px;
     color: rgb(255, 255, 255);
-    background-color: rgb(255, 0, 0);
+    background: radial-gradient(
+        rgb(255, 0, 0) 0%,
+        rgb(255, 137, 56) 100%
+    );
 }
 
 .container{
@@ -100,3 +103,167 @@ body{
     margin-top: 18px;
 }
 
+/* <!-- Great Tea, Freshly Presented  css styles--> */
+
+.great-tea-section{
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-between;
+    gap: 25px;
+    /* border: 1px solid red; */
+}
+.great-tea-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    /* position: relative; */
+}
+.reat-tea-fresh{
+    width: 238px;
+    height: 355px;
+    border-radius: 10px;
+    padding: 28px 30px 31px 31px;
+    background-color: rgba(230, 166, 35, 0.1);
+}
+.reat-tea-fresh-2{
+    width: 238px;
+    height: 355px;
+    border-radius: 10px;
+    padding: 39px 46px 43px 46px;
+    background-color: rgba(87, 118, 57, 0.1);
+}
+.ematy-card{
+    width: 238px;
+    height: 136px;
+    background: radial-gradient(
+        rgb(255, 0, 0) 0%,
+        rgb(255, 137, 56) 100%
+    );
+    border-radius: 10px;
+    border: 1px solid red;
+}
+.liner{
+    background: radial-gradient(
+        rgb(255, 137, 56) 0%,
+        rgb(226, 22, 22) 100%
+    );
+
+}
+.great-tea-container h1{
+    width: 413px;
+    height: 109px;
+    font-weight: 800;
+    font-size: 45px;
+    color: rgb(28, 28, 28);
+}
+#grat-tea-title{
+    width: 582px;
+    height: 150px;
+    line-height: 25px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    /* margin-bottom: 105px; */
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(119, 119, 119);
+}
+.great-tea-container h4{
+    width: 169px;
+    height: 24px;
+    font-weight: 800;
+    font-size: 20px;
+    color: rgb(28, 28, 28);
+}
+.great-tea-container p{
+    width: 508px;
+    height: 56px;
+    line-height: 25px;
+    margin-top: 26px;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(119, 119, 119);
+}
+
+
+/* Meet-Clients-section css styles */
+
+.Meet-Clients-section{
+    height: 650px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: radial-gradient(
+        rgb(255, 137, 56) 0%,
+        rgb(226, 22, 22) 100%
+    );
+    gap: 40px;
+    margin-top: 50px;
+    border-radius: 12px;
+}
+.Meet-Clients-container{
+    padding-left: 45px;
+}
+.Meet-Clients-container h1{
+    width: 389px;
+    height: 123px;
+    font-weight: 800;
+    font-size: 45px;
+    color:  rgb(244, 244, 244);
+}
+.Meet-Clients-container p{
+    width: 440px;
+    height: 112px;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(244, 244, 244);
+}
+.Meet-Clients-container button{
+    width: 139px;
+    height: 56px;
+    font-size: 20px;
+    border-radius: 9px;
+    border: none;
+    color: rgb(255, 0, 0);
+}
+.client-image{
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    padding: 3px;
+    background-color: aliceblue;
+}
+#imge{
+    margin-left: -25px;
+    margin-bottom: -30px;
+}
+.Meet-Clients-title{
+    width: 433px;
+    height: 233px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border: none;
+}
+.Meet-Clients-title p{
+    width: 341px;
+    height: 98px;
+    font-size: 16px;
+    color: rgb(119, 119, 119);
+    padding: 31px 25px;
+    align-items: center;
+}
+.Meet-Clients-title h3{
+    font-size: 16px;
+    margin-left: 25px;
+    color: rgb(28, 28, 28);
+}
+/* responsive divice */
+
+@media screen and (max-width: 576px) {
+    .tea-house-container{
+        flex-direction: column;
+    }
+    .featured-products-image{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
