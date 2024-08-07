@@ -229,8 +229,13 @@ body{
     width: 66px;
     height: 66px;
     border-radius: 50%;
-    padding: 3px;
+    padding: 1px;
     background-color: aliceblue;
+}
+.client-image img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
 }
 #imge{
     margin-left: -25px;
