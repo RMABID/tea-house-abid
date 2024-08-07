@@ -296,11 +296,73 @@ body{
     font-size: 16px;
     color: rgb(119, 119, 119);
 }
+
+li{
+    text-decoration: none;
+}
 a{
     font-weight: 700;
     font-size: 16px;
     text-decoration: none;
+    line-height: 35px;
     color: rgb(28, 28, 28);
+}
+a:hover {
+    color: red;
+}
+
+footer{
+    height: 476px;
+    margin-top: 50px;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.1);
+}
+.footer-section {
+    padding-top: 52px;
+    align-items: center;
+}
+.footer-icon-section{
+ display: flex;
+ justify-content: space-between;
+}
+.footer-logo-section{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 52px;
+    padding-top: 32px;
+}
+.footer-btn{
+    display: flex;
+    gap: 35px;
+}
+
+.footer-icon{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 160px;
+}
+.copy-section{
+    margin-top: 35px;
+    text-align: center;
+    align-items: center;
+}
+.icon{
+    display: flex;
+    margin-top: 15px;
+    gap: 35px;
+    /* border: 1px solid red; */
+    
+}
+.icon a{
+    font-weight: 600;
+    font-size: 30px;
+}
+.email-icon input{
+    border: none;
+    color: rgb(73, 73, 73);
+    background: none;
+    /* background-color: rgba(255, 0, 0, 0.1); */
+    gap: 115px
 }
 
 /* responsive divice */
