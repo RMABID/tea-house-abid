@@ -128,7 +128,9 @@ body{
 .reat-tea-fresh-2{
     width: 238px;
     height: 355px;
+    margin-top: -218px;
     border-radius: 10px;
+    /* border: 1px solid red; */
     padding: 39px 46px 43px 46px;
     background-color: rgba(87, 118, 57, 0.1);
 }
@@ -236,6 +238,7 @@ body{
     width: 60px;
     height: 60px;
     border-radius: 50%;
+    /* background-color: rgb(78, 185, 185); */
 }
 #imge{
     margin-left: -25px;
